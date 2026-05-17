@@ -1,0 +1,121 @@
+export default function BettingLandingPage() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-black via-zinc-900 to-black text-white flex items-center justify-center p-4">
+      <div className="w-full max-w-md bg-zinc-900/90 backdrop-blur-xl border border-orange-500 rounded-3xl shadow-2xl overflow-hidden">
+
+        {/* Header */}
+        <div className="p-6 text-center border-b border-zinc-800">
+          <div className="w-24 h-24 mx-auto rounded-full bg-black border-4 border-orange-500 flex items-center justify-center overflow-hidden shadow-lg">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Telegram_2019_Logo.svg"
+              alt="Logo"
+              className="w-12 h-12"
+            />
+          </div>
+
+          <h1 className="text-3xl font-extrabold mt-4 text-orange-400 tracking-wide">
+            WIN DZ24
+          </h1>
+
+          <p className="text-zinc-400 mt-2 text-sm">
+            Plateforme officielle de codes promo & tutoriels.
+          </p>
+        </div>
+
+        {/* Login */}
+        <div className="p-6 space-y-4">
+          <input
+            type="text"
+            placeholder="Nom utilisateur"
+            className="w-full bg-black border border-zinc-700 rounded-2xl px-4 py-3 outline-none focus:border-orange-500"
+          />
+
+          <input
+            type="password"
+            placeholder="Mot de passe"
+            className="w-full bg-black border border-zinc-700 rounded-2xl px-4 py-3 outline-none focus:border-orange-500"
+          />
+
+          <button className="w-full bg-orange-500 hover:bg-orange-600 transition-all rounded-2xl py-3 font-bold text-black shadow-lg">
+            Connexion
+          </button>
+        </div>
+
+        {/* Bookmakers */}
+        <div className="px-6 pb-6 space-y-4">
+
+          <div className="bg-black border border-orange-500 rounded-2xl p-4 shadow-xl">
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="text-xl font-bold text-orange-400">1XBET</h2>
+              <span className="text-xs bg-orange-500 text-black px-3 py-1 rounded-full font-bold">
+                OFFICIEL
+              </span>
+            </div>
+
+            <p className="text-zinc-400 text-sm mb-2">
+              Code promo :
+            </p>
+
+            <div className="bg-zinc-900 border border-orange-500 rounded-xl text-center py-3 text-lg font-bold text-orange-400">
+              1X_2190315
+            </div>
+
+            <button className="w-full mt-4 bg-orange-500 hover:bg-orange-600 rounded-xl py-3 font-bold text-black transition-all">
+              S'inscrire sur 1XBET
+            </button>
+          </div>
+
+          <div className="bg-black border border-orange-500 rounded-2xl p-4 shadow-xl">
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="text-xl font-bold text-orange-400">MELBET</h2>
+              <span className="text-xs bg-orange-500 text-black px-3 py-1 rounded-full font-bold">
+                OFFICIEL
+              </span>
+            </div>
+
+            <p className="text-zinc-400 text-sm mb-2">
+              Code promo :
+            </p>
+
+            <div className="bg-zinc-900 border border-orange-500 rounded-xl text-center py-3 text-lg font-bold text-orange-400">
+              ml_2625184
+            </div>
+
+            <button className="w-full mt-4 bg-orange-500 hover:bg-orange-600 rounded-xl py-3 font-bold text-black transition-all">
+              S'inscrire sur MELBET
+            </button>
+          </div>
+
+          {/* Video */}
+          <div className="bg-zinc-800 border border-dashed border-orange-500 rounded-2xl p-4 text-center">
+            <h3 className="text-lg font-bold text-orange-400 mb-2">
+              Tutoriel Vidéo
+            </h3>
+
+            <p className="text-zinc-400 text-sm mb-4">
+              Regardez la vidéo explicative avant inscription.
+            </p>
+
+            <button className="bg-orange-500 hover:bg-orange-600 text-black font-bold px-6 py-3 rounded-xl transition-all">
+              Voir le tutoriel
+            </button>
+          </div>
+
+          {/* Telegram */}
+          <a
+            href="https://t.me/win_dz24"
+            target="_blank"
+            className="block w-full text-center bg-blue-500 hover:bg-blue-600 transition-all rounded-2xl py-3 font-bold"
+          >
+            Rejoindre Telegram
+          </a>
+        </div>
+
+        {/* Footer */}
+        <div className="border-t border-zinc-800 text-center text-zinc-500 text-xs py-4">
+          © 2026 WIN DZ24 - Tous droits réservés.
+        </div>
+      </div>
+    </div>
+  )
+}
